@@ -7,6 +7,9 @@ import scrapy
 
 
 class MeliscrapySqliteItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+
+        descripcion = scrapy.Field()
+        titulo = scrapy.Field()
+        precio = scrapy.Field()
+        rooms = scrapy.Field()
+        baths = scrapy.Field()
