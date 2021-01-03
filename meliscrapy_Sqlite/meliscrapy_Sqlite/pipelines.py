@@ -35,7 +35,7 @@ class MeliscrapySqlitePipeline:
     def store_db(self, item):
         self.curr.execute('''insert into meli_tb values ( ?,?,?,?) ''',(
             item['titulo'][0],
-            #item['descripcion'][0],hagamos una prueba
+            #item['descripcion'][0]
             item['rooms'][0],
             item['baths'][0],
             item['precio'][0]
