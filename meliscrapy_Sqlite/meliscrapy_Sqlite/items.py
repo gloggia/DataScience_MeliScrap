@@ -13,3 +13,4 @@ class MeliscrapySqliteItem(scrapy.Item):
         precio = scrapy.Field()
         rooms = scrapy.Field()
         baths = scrapy.Field()
+        surface = scrapy.Field()
